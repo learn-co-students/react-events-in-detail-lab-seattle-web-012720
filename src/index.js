@@ -11,4 +11,5 @@ ReactDOM.render(
     <DelayedButton onDelayedClick={ event => console.log(event) } delay={1500} />
   </div>,
   document.getElementById('global')
+
 );
